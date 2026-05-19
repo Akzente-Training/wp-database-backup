@@ -151,7 +151,6 @@ $wpdbbkp_sftp_authtype = isset($wpdbbkp_sftp_details['auth_type'])?$wpdbbkp_sftp
 	}</style>
 <p><?php echo esc_html__('Enter your SFTP details for your offsite backup repository. Leave these blank for local backups or Disable SFTP Destination.', 'wpdbbkp') ?></p>		
 <form  class="form-group" name="form1" method="post" action="">
-	<input type="hidden" name="<?php echo esc_attr( $hidden_field_name ); ?>" value="Y">
 	<input name="wpdbbackup_update_setting" type="hidden" value="<?php echo esc_attr( wp_create_nonce( 'wpdbbackup-update-setting' ) ); ?>" />
 <?php wp_nonce_field( 'wp-database-backup' ); ?>
 
