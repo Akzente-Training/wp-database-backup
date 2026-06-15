@@ -1,3 +1,7 @@
+= 7.12 =
+* 12-06-2026
+* Security: Fixed OS command injection via wp_db_exclude_table in mysqldump shell command
+
 = 7.11 =
 * 19-05-2026
 * Improvement: Improved code according to latest PCP guildelines #144
