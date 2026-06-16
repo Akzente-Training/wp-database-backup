@@ -1,6 +1,6 @@
 = 7.12 =
 * 12-06-2026
-* Security: Fixed OS command injection via wp_db_exclude_table in mysqldump shell command
+* Fix: Authenticated (Administrator+) OS Command Injection via 'wp_db_exclude_table' Parameter disclosed by Irwan Kusuma ( Wordfence )
 
 = 7.11 =
 * 19-05-2026
